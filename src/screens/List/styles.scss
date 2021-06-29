@@ -1,0 +1,18 @@
+@import '../../base';
+
+#list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 7%;
+
+    p:first-child {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        @include text-gradiente
+    }
+}

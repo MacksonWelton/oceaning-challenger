@@ -1,0 +1,36 @@
+#input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#input small {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+input {
+  width: 683px;
+  color: #363443;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 5px solid #363443;
+  background: transparent;
+  font-size: 40px;
+}
+
+input:focus {
+  color: #15F7D9;
+  border-bottom: 5px solid #15F7D9;
+  outline: none;
+}
+
+.input-invalid {
+  border-bottom: 5px solid #ff0000;
+}
+/*# sourceMappingURL=styles.scss.map */

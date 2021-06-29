@@ -1,0 +1,5 @@
+@mixin text-gradiente {
+    background: -webkit-linear-gradient(right, #ff8c00, #FFDA15);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

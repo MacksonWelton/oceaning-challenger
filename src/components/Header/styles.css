@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6% 6% 0px 120px;
+}
+
+.header .social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.header .social-network #social-network-text {
+  text-align: right;
+}
+
+.header .social-network #social-network-text p:first-child {
+  font-weight: 600;
+  font-size: 21px;
+  color: #b7b6b9;
+  margin-bottom: 0px;
+}
+
+.header .social-network #social-network-text p:last-child {
+  font-weight: 600;
+  font-size: 31px;
+  margin-top: -5px;
+}
+
+.header .social-network img {
+  margin-left: 31px;
+}
+/*# sourceMappingURL=styles.scss.map */

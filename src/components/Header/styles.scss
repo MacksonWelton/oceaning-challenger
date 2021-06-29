@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6% 6% 0px 120px;
+
+    .social-network {
+        display: flex;
+        color: #fff;
+        margin-top: -10px;
+
+        #social-network-text {
+            text-align: right;
+
+            p:first-child {
+                font-weight: 600;
+                font-size: 21px;
+                color: rgb(183,182,185);
+                margin-bottom: 0px;
+            }
+
+            p:last-child {
+                font-weight: 600;
+                font-size: 31px;
+                margin-top: -5px;
+            }
+        }
+
+        img {
+            margin-left: 31px;
+        }
+    }
+}

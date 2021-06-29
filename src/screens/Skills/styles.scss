@@ -1,0 +1,81 @@
+#register {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#register-text {
+    display: flex;
+    flex-direction: column;
+    margin: 15% 8% 6% 7%;
+
+    p:nth-child(1) {
+        font-family: Poppins;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: linear-gradient(90deg, #FFDA15 -2.94%, #FFA215 105.98%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p:nth-child(2) {
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    p:nth-child(3) {
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #78748C;
+    }
+}
+
+#form-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 8% 8% 7%;
+    min-height: 250px;
+}
+
+#skill-input {
+    margin-right: auto;
+}
+
+#skills-recommends {
+    display: flex;
+    margin-bottom: 50px;
+
+    .skill {
+        font-style: normal;
+        text-align: left;
+        box-sizing: border-box;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        border: 1px solid #9FAAB9;
+        border-radius: 50px;
+        padding: 5px 25px;
+        margin: 20px 15px 0px 0px;
+        cursor: pointer;
+    }
+}
+
+#button-end {
+    margin-left: auto;
+}

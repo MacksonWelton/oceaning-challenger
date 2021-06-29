@@ -1,0 +1,69 @@
+#register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+}
+
+#register-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15% 8% 6% 7%;
+}
+
+#register-text p:nth-child(1) {
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: -webkit-linear-gradient(right, #ff1515, #FFDA15);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#register-text p:nth-child(2) {
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#register-text p:nth-child(3) {
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #78748C;
+}
+
+#form-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5% 8% 8% 7%;
+}
+/*# sourceMappingURL=styles.css.map */

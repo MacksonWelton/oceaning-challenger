@@ -1,0 +1,143 @@
+#banner {
+  padding: 7% 14% 8% 8%;
+}
+
+#banner h1 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 57px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+  text-align: left;
+  background: -webkit-linear-gradient(right, #ff1515, #FFDA15);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#banner h2 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px 5%;
+  margin-bottom: 10%;
+}
+
+.calendar .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 1px #fff;
+}
+
+.calendar .date .date-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 40px;
+}
+
+.calendar .date .date-text span:first-child {
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.calendar .date .date-text span:last-child {
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B5B2C7;
+}
+
+.calendar .date p:first-child {
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.calendar .date p:last-child {
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.calendar .date .rectangle {
+  width: 2px;
+  height: 126px;
+  left: 220px;
+  top: 640px;
+  background: #423E58;
+}
+
+#hour {
+  display: block;
+  margin-left: 3%;
+  margin-right: 15%;
+}
+
+#hour p:first-child {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: -20px;
+  color: #B5B2C7;
+}
+
+#hour p:last-child {
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -20px;
+  background: -webkit-linear-gradient(right, #ff1515, #FFDA15);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=styles.css.map */

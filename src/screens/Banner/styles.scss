@@ -1,0 +1,124 @@
+@import '../../base';
+
+#banner {
+    padding: 7% 14% 8% 8%;
+
+    h1 {
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 57px;
+        letter-spacing: 0em;
+        margin-bottom: 20px;
+        text-align: left;
+        @include text-gradiente
+    }
+
+    h2 {
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 66px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+.calendar {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 10px 5%;
+    margin-bottom: 10%;
+
+    .date {
+        display: flex;
+        align-content: center;
+        border: 1px #fff;
+
+        .date-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 40px;
+
+            span:first-child {
+                font-family: Poppins;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 50px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            span:last-child {
+                font-family: Poppins;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 600;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #B5B2C7;
+            }
+        }
+
+        p:first-child {
+            font-family: Poppins;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        p:last-child {
+            font-family: Poppins;
+            font-size: 33px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .rectangle {
+            width: 2px;
+            height: 126px;
+            left: 220px;
+            top: 640px;
+            background: #423E58;
+        }
+    }
+}
+
+
+#hour {
+    display: block;
+    margin-left: 3%;
+    margin-right: 15%;
+
+    p:first-child {
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 66px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: -20px;
+        color: #B5B2C7;
+    }
+
+    p:last-child {
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 87px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: -20px;
+        @include text-gradiente
+    }
+}

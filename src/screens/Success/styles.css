@@ -1,0 +1,48 @@
+#success {
+  width: 100%;
+  margin-top: 10%;
+}
+
+#success p:nth-child(1) {
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: -webkit-linear-gradient(right, #ff1515, #FFDA15);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#success p:nth-child(2) {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#success p:nth-child(3) {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #78748C;
+  margin-top: 30px;
+}
+
+#success-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10%;
+}
+/*# sourceMappingURL=styles.css.map */
